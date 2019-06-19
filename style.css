@@ -55,3 +55,85 @@ table {
           box-sizing: border-box;
 }
 
+.container {
+	display: grid;
+	width: 100vw;
+	color: white;
+}
+
+nav {
+	display: grid;
+	grid-auto-flow: column;
+	grid-template-columns: repeat(7, 1fr);
+	background: #666;
+	padding: 20px 0;
+}
+
+.nav-item {
+	display: grid;
+	justify-items: center;
+	align-content: center;
+}
+
+
+.nav-item > * {
+	margin: 10px;
+}
+
+.logo {
+	height: 50px;
+	width: 50px;
+	background: #ccc;
+}
+
+.search {
+	height: 50px;
+	width: 100px;
+	background: #999;
+}
+.nav-icon {
+	height: 40px;
+	width: 40px;
+	background: #999;
+}
+
+.nav-title {
+	height: 30px;
+	width: 90px;
+	background: #ccc;
+}
+
+.nav-subtitle {
+	height: 15px;
+	width: 120px;
+	background: #999;
+}
+
+.articles {
+	display: grid;
+	grid-template: 5fr 4fr / 1fr 1fr;
+	position: relative;
+}
+
+.articles-header {
+	position: absolute;
+	top: 0;
+	display: grid;
+	background: transparent;
+}
+
+.dont-miss {
+	background: white;
+}
+
+.article {
+	padding: 10%;
+	background: #555555;
+}
+
+.article2 {
+	background: #5a5a5a;
+}
+.article3 {
+	background: #505050;
+}
