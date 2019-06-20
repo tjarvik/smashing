@@ -388,3 +388,133 @@ nav {
 	background: #aaa;
 	grid-column: 2 / -1;
 }
+
+.book {
+	display: grid;
+	grid-template-columns: 65% 1fr;
+	padding: 50px;
+	grid-gap: 20px;
+	background: #666;
+}
+
+.book-img {
+	grid-area: 1 / 2 / span 4 / span 1;
+	height: 400px;
+	width: 300px;
+	background: #555;
+	margin-top: -100px;
+}
+
+.book-intro {
+	height: 15px;
+	width: 300px;
+	background: #888;
+}
+
+.book-title {
+	height: 50px;
+	width: 300px;
+	background: #ccc;
+}
+
+.book-summary {
+	height: 100px;
+	width: 90%;
+	background: #888;
+}
+
+.book-button {
+	height: 60px;
+	width: 200px;
+	background: white;
+}
+
+.guides {
+	padding: 50px;
+	background: #eee;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 30px;
+
+}
+
+.guide {
+	display: grid;
+	grid-template-columns: 1fr;
+	margin-bottom: 100px;
+	grid-gap: 30px;
+}
+
+.guide-title {
+	height: 80px;
+	width: 90%;
+	background: #888;
+}
+
+.guide-list {
+	height: 300px;
+	width: 70%;
+	background: #ccc;
+	justify-self: center;
+}
+
+.nl-summary {
+	height: 60px;
+	width: 80%;
+}
+
+.nl-img {
+	height: 400px;
+	width: 400px;
+
+}
+
+.nl-button {
+	width: 400px;
+}
+
+.feature-info {
+	height: 40px;
+	width: 300px;
+}
+
+.topics {
+	display: grid;
+	grid-template-columns: 1fr;
+	padding: 50px;
+	grid-gap: 30px;
+	justify-items: center;
+	background: #666;
+}
+
+.browse {
+	height: 15px;
+	width: 300px;
+	background: #ccc;
+}
+
+.topics-list {
+	height: 200px;
+	width: 90%;
+	background: #aaa;
+}
+
+footer {
+	display: grid;
+	grid-template-columns: 1fr 2fr 1fr;
+	padding: 50px;
+	grid-gap: 30px;
+	background: #666;
+}
+
+.footer-img {
+	height: 200px;
+	width: 200px;
+	background: #888;
+}
+
+.footer-content {
+	height: 200px;
+	width: 90%;
+	background: #888;
+}
