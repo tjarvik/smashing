@@ -320,3 +320,71 @@ nav {
 	background: #777;
 }
 
+.pow {
+	display: grid;
+	grid-template-columns: 1fr 3fr;
+	grid-template-rows: 15px 1fr;
+	grid-gap: 20px;
+	padding: 60px;
+	height: 300px;
+}
+
+.pow-img {
+	background: #aaa;
+	justify-self: center;
+	grid-row: 1 / -1;
+	height: 200px;
+	width: 200px;
+}
+
+.pow-name {
+	height: 15px;
+	width: 200px;
+	background: #ccc;
+}
+
+.pow p {
+	background: #ccc;
+}
+
+.shares {
+	display: grid;
+	grid-template-columns: 50% 1fr;
+	grid-gap: 100px 20px;
+	padding: 50px;
+}
+
+.share {
+	display: grid;
+	grid-template-columns: 70px 1fr;
+	grid-gap: 20px;
+}
+
+.sharer-img {
+	grid-row: 1 / -1;
+	height: 50px;
+	width: 50px;
+	background: #666;
+	align-self: top;
+}
+
+.sharer {
+	height: 20px;
+	width: 60%;
+	background: #666;
+	grid-column: 2 / -1;
+}
+
+.share-title {
+	height: 50px;
+	width: 90%;
+	background: #444;
+	grid-column: 2 / -1;
+}
+
+.share-summary {
+	height: 120px;
+	width: 100%;
+	background: #aaa;
+	grid-column: 2 / -1;
+}
