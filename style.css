@@ -117,23 +117,79 @@ nav {
 
 .articles-header {
 	position: absolute;
-	top: 0;
+	top: 50px;
+	right: 50px;
 	display: grid;
+	justify-items: right;
+	grid-auto-flow: column;
+	height: 100px;
 	background: transparent;
 }
 
 .dont-miss {
 	background: white;
+	width: 200px;
+	height: 70px;
 }
 
+.red-button {
+	height: 50px;
+	width: 150px;
+	background: #999;
+	margin-left: 260px;
+}
 .article {
+	display: grid;
+	grid-gap: 20px;
+	grid-template-rows: 100px 200px 1fr;
+	align-items: center;
 	padding: 10%;
 	background: #555555;
 }
 
+.article1 {
+	padding-top: 200px;
+}
+
 .article2 {
 	background: #5a5a5a;
+	padding-top: 200px;
 }
+
 .article3 {
 	background: #505050;
 }
+
+.byline {
+	display: grid;
+	grid-auto-flow: column;
+	align-items: center;
+	justify-items: left;
+}
+
+.author-img {
+	height: 60px;
+	width: 60px;
+	background: #999;
+}
+
+.author {
+	height: 20px;
+	width: 200px;
+	background: #999;
+}
+
+.article-title {
+	width: 90%;
+	height: 120px;
+	background: #aaa;
+}
+
+.article-tag {
+	height: 15px;
+	width: 60px;
+	background: #999;
+	display: inline-block;
+	margin-right: 30px;
+}
+
